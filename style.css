@@ -1,0 +1,36 @@
+#mapid {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#map-container {
+  position: relative;
+  height: 100vh; 
+}
+.input-group {
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%; 
+  z-index: 1; 
+}
+
+#suggestions {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  scale: 0.7; 
+  text-align: center; 
+  line-height: 30px;
+  
+}
+
+@media (max-width: 600px) {
+  #suggestions {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+}
