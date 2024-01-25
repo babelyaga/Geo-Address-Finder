@@ -1,2 +1,2 @@
-# Geo-Address-Finder
+# Responsive-Geo-Address-Finder
 https://babelyaga.github.io/Geo-Address-Finder/ (Preview)
